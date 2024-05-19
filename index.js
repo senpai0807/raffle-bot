@@ -42,7 +42,7 @@ async function startScript() {
     ########  #######  ##    ## ##     ## ##     ##     ######   ######  ##     ## #### ##           ##     ######  
 `);
 
-    logger.info('Welcome, Max Hayman');
+    logger.info('Welcome, User');
     const answers = await inquirer.prompt({
         name: 'choice',
         type: 'list',
